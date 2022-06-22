@@ -6,11 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
     <header>
-        <h1>Calculator</h1>
-        <a href="https://github.com/pauliand3138/etch-a-sketch"><img src="img/github-icon-black.png" alt="github icon" class="github-icon" width="40" height="40"></a>
+        <h1>Calculator</i></h1>
+        <a href="https://github.com/pauliand3138/calculator"><img src="img/github-icon-white.png" alt="github icon" class="github-icon" width="40" height="40"></a>
     </header>
+    <main>
+        <div class="calculator">
+            <div class="screen">
+                <div id="history"></div>
+                <div id="input"></div>
+            </div>
+            <div class="buttons">
+                <button id="zero" class="gray"><i class="fa-solid fa-0 fa-2x"></i></button>
+                <button id="one" class="gray"><i class="fa-solid fa-1 fa-2x"></i></button>
+                <button id="two" class="gray"><i class="fa-solid fa-2 fa-2x"></i></button>
+                <button id="three" class="gray"><i class="fa-solid fa-3 fa-2x"></i></button>
+                <button id="four" class="gray"><i class="fa-solid fa-4 fa-2x"></i></button>
+                <button id="five" class="gray"><i class="fa-solid fa-5 fa-2x"></i></button>
+                <button id="six" class="gray"><i class="fa-solid fa-6 fa-2x"></i></button>
+                <button id="seven" class="gray"><i class="fa-solid fa-7 fa-2x"></i></button>
+                <button id="eight" class="gray"><i class="fa-solid fa-8 fa-2x"></i></button>
+                <button id="nine" class="gray"><i class="fa-solid fa-9 fa-2x"></i></button>
+                <button id="add" class="gray"><i class="fa-solid fa-plus fa-2x"></i></button>
+                <button id="subtract" class="gray"><i class="fa-solid fa-minus fa-2x"></i></button>
+                <button id="multiply" class="black"><i class="fa-solid fa-xmark fa-2x"></i></button>
+                <button id="divide" class="black"><i class="fa-solid fa-divide fa-2x"></i></button>
+                <button id="equal" class="orange"><i class="fa-solid fa-equals fa-2x"></i></button>
+                <button id="clear" class="black"><i class="fa-solid fa-trash-can fa-2x"></i></button>
+                <button id="delete" class="black"><i class="fa-solid fa-delete-left fa-2x"></i></button>
+                <button id="decimal" class="gray">.</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="copyright">
+            <p class="copyright-text">Copyright &copy; <a href="https://paul-ian.tk"><span class="author-name">Lim Paul Ian</span></a></p>
+        </div>
+    </footer>
+    
 </body>
 </html>
