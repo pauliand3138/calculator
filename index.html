@@ -18,27 +18,27 @@
         <div class="calculator">
             <div class="screen">
                 <div id="history"></div>
-                <div id="input"></div>
+                <div id="input">0</div>
             </div>
             <div class="buttons">
-                <button id="zero" class="gray"><i class="fa-solid fa-0 fa-2x"></i></button>
-                <button id="one" class="gray"><i class="fa-solid fa-1 fa-2x"></i></button>
-                <button id="two" class="gray"><i class="fa-solid fa-2 fa-2x"></i></button>
-                <button id="three" class="gray"><i class="fa-solid fa-3 fa-2x"></i></button>
-                <button id="four" class="gray"><i class="fa-solid fa-4 fa-2x"></i></button>
-                <button id="five" class="gray"><i class="fa-solid fa-5 fa-2x"></i></button>
-                <button id="six" class="gray"><i class="fa-solid fa-6 fa-2x"></i></button>
-                <button id="seven" class="gray"><i class="fa-solid fa-7 fa-2x"></i></button>
-                <button id="eight" class="gray"><i class="fa-solid fa-8 fa-2x"></i></button>
-                <button id="nine" class="gray"><i class="fa-solid fa-9 fa-2x"></i></button>
-                <button id="add" class="gray"><i class="fa-solid fa-plus fa-2x"></i></button>
-                <button id="subtract" class="gray"><i class="fa-solid fa-minus fa-2x"></i></button>
-                <button id="multiply" class="black"><i class="fa-solid fa-xmark fa-2x"></i></button>
-                <button id="divide" class="black"><i class="fa-solid fa-divide fa-2x"></i></button>
-                <button id="equal" class="orange"><i class="fa-solid fa-equals fa-2x"></i></button>
-                <button id="clear" class="black"><i class="fa-solid fa-trash-can fa-2x"></i></button>
-                <button id="delete" class="black"><i class="fa-solid fa-delete-left fa-2x"></i></button>
-                <button id="decimal" class="gray">.</button>
+                <button id="zero"     class="gray"   data-number><i class="fa-solid fa-0 fa-2x"></i></button>
+                <button id="one"      class="gray"   data-number><i class="fa-solid fa-1 fa-2x"></i></button>
+                <button id="two"      class="gray"   data-number><i class="fa-solid fa-2 fa-2x"></i></button>
+                <button id="three"    class="gray"   data-number><i class="fa-solid fa-3 fa-2x"></i></button>
+                <button id="four"     class="gray"   data-number><i class="fa-solid fa-4 fa-2x"></i></button>
+                <button id="five"     class="gray"   data-number><i class="fa-solid fa-5 fa-2x"></i></button>
+                <button id="six"      class="gray"   data-number><i class="fa-solid fa-6 fa-2x"></i></button>
+                <button id="seven"    class="gray"   data-number><i class="fa-solid fa-7 fa-2x"></i></button>
+                <button id="eight"    class="gray"   data-number><i class="fa-solid fa-8 fa-2x"></i></button>
+                <button id="nine"     class="gray"   data-number><i class="fa-solid fa-9 fa-2x"></i></button>
+                <button id="add"      class="gray"   data-operator><i class="fa-solid fa-plus fa-2x"></i></button>
+                <button id="subtract" class="gray"   data-operator><i class="fa-solid fa-minus fa-2x"></i></button>
+                <button id="multiply" class="black"  data-operator><i class="fa-solid fa-xmark fa-2x"></i></button>
+                <button id="divide"   class="black"  data-operator><i class="fa-solid fa-divide fa-2x"></i></button>
+                <button id="equal"    class="orange" ><i class="fa-solid fa-equals fa-2x"></i></button>
+                <button id="clear"    class="black"  ><i class="fa-solid fa-trash-can fa-2x"></i></button>
+                <button id="delete"   class="black"  ><i class="fa-solid fa-delete-left fa-2x"></i></button>
+                <button id="decimal"  class="gray"   >.</button>
             </div>
         </div>
     </main>
@@ -47,6 +47,6 @@
             <p class="copyright-text">Copyright &copy; <a href="https://paul-ian.tk"><span class="author-name">Lim Paul Ian</span></a></p>
         </div>
     </footer>
-    
+    <script src="main.js"></script>
 </body>
 </html>
