@@ -128,6 +128,7 @@ function deleteNumber() {
     } else {
         inputDiv.textContent = 0;
     }
+    currentNumber = inputDiv.textContent;
 }
 
 function clear() {
