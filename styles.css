@@ -60,6 +60,11 @@ h1 {
     padding: 10px 10px;
 }
 
+#input {
+    font-weight: bold;
+    font-size: 25px;
+}
+
 .buttons {
     display: grid;
     grid-gap: 15px;
